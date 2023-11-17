@@ -2,7 +2,7 @@
   "name": "muser",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://saladware.github.io/muser"
+  "homepage": "https://saladware.github.io/muser",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
