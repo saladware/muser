@@ -1,7 +1,9 @@
 import React from 'react';
 import classes from "./Header.module.css"
 
-const Header = () => {
+import { Link } from 'react-router-dom';
+
+const Header = (elements, button) => {
   return (
     <header>
 
@@ -16,14 +18,14 @@ const Header = () => {
       <nav>
         <ul>
           <li><a href="#s3">курсы</a></li>
-          <li><a href="">преимущества</a></li>
-          <li><a href="">особенности</a></li>
-          <li><a href="">о нас</a></li>
-          <li><a href="">обратная связь</a></li>
+          <li><a href="#s4">содержание</a></li>
+          <li><a href="#s5">курсы</a></li>
+          <li><a href="#s6">о нас</a></li>
+          <li><a href="mailto:saladware46@gmail.com">обратная связь</a></li>
         </ul>
       </nav>
       <div id={classes.auth}>
-        <a href="/login">войти</a>
+        <Link to="/login">войти</Link>
       </div>
     </header>
   );

@@ -3,12 +3,15 @@
 
 html {
     background: linear-gradient(0deg, #33292E 0%, #7D1950 20.78%, #853561 51.49%, #7D1950 79.86%, #33292E 100%, #33292E 100%);
-    height: 100%;
 }
 
 body {
     font-family: Montserrat, sans-serif, system-ui;
     font-size: 1rem;
+}
+
+.muted {
+    color: #DFDFDF;
 }
 
 * {
@@ -101,10 +104,21 @@ section {
 #s3 .cards {
     display: flex;
     justify-content: space-between;
-  
+    flex-wrap: wrap;
 }
 
-#s3 .cards div {
+@media (min-width: 770px) {
+    #s3 .cards {
+        flex-wrap: nowrap;
+    }
+}
+
+
+#s3 .open {
+    margin-top: 3rem;
+}
+
+#s3 .cards .c {
     background-color: #00000040;
     margin: 1rem 2rem;
     padding: 2rem;
@@ -118,25 +132,39 @@ section {
 #s4 .cards {
     margin-top: 2rem;
     display: flex;
-    min-height: 50vh;
+    min-height: 30rem;
     flex-wrap: wrap;
 }
 
-.card {
+#s4 .card {
     background-color: #00000040;
     padding: 2rem;
-    width: 20rem;
-    width: 20rem;
-    margin: 0 auto;
+    margin: 1rem auto;
     height: fit-content;
     border-radius: 2rem;
+}
+
+#s4 .cards #c1, #s4 .cards #c3 {
+    align-self: flex-start;
 }
 
 #s4 .cards #c2, #s4 .cards #c4 {
     align-self: flex-end;
 }
 
+#s5 h2 {
+    text-align: center;
+}
+
 #s5 .cards {
+    margin-top: 2rem;
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#s6 h2 {
+    text-align: center;
 }
 
