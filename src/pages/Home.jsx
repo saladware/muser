@@ -59,19 +59,22 @@ const Home = () => {
 
                 <section id='s4'>
                     <h2>содержание</h2>
-                    <div className="cards">
+                    <div className="cards" style={{position: "relative"}}>
                         <div className="card" id="c1">
                             <h3>теоретические <br />занятия</h3>
                             <p className='muted'>теоретические занятия <br />для начального и <br />продвинутого уровней</p>
                         </div>
+                        <img src="/Vector 1.svg" alt="" id='c22' style={{position: "absolute", top: "15rem", left: "5rem"}} />
                         <div className="card" id="c2">
                             <h3>тест</h3>
                             <p className='muted'>короткий тест по <br />материалу главы</p>
                         </div>
+                        <img src="/Vector 2.svg" alt="" id="c44" style={{position: "absolute", top: "8rem", left: "25rem"}}/>
                         <div className="card" id="c3">
                             <h3>домашнее <br />задание</h3>
                             <p className='muted'>практическое задание <br /> для закрепления <br /> пройденного <br />материала</p>
                         </div>
+                        <img src="/Vector 3.svg" alt="" id="c64" style={{position: "absolute", bottom: "2rem", right: "17rem"}}/>
                         <div className="card" id="c4">
                             <h3>больше <br />практики!</h3>
                             <p className='muted'>в конце курса вам будет <br />доступен бот - <br /> генератор заданий</p>
