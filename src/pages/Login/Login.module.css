@@ -47,3 +47,14 @@
     margin-top: 2rem;
     justify-content: center;
 }
+
+#sug {
+    text-align: center;
+    color: #dfdfdf;
+    
+}
+
+#sug a {
+    text-decoration: none;
+    color: #C3006B;
+}

@@ -19,7 +19,7 @@ const Header = (elements, button) => {
         <ul>
           <li><a href="#s3">курсы</a></li>
           <li><a href="#s4">содержание</a></li>
-          <li><a href="#s5">курсы</a></li>
+          <li><a href="#s5">преимущества</a></li>
           <li><a href="#s6">о нас</a></li>
           <li><a href="mailto:saladware46@gmail.com">обратная связь</a></li>
         </ul>

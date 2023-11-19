@@ -14,7 +14,7 @@ const Home = () => {
                     <p className='muted'>научись создавать клипы и фото
                         <br />
                         для своих треков</p>
-                    <button className='btn-secondary' id='b1'><Link style={{"textDecoration": "none"}} to="/join">записаться на курс</Link></button>
+                    <button className='btn-secondary' id='b1'><Link style={{ "textDecoration": "none" }} to="/join">записаться на курс</Link></button>
                 </section>
                 <section id='s2'>
                     <div id='card'>
@@ -33,7 +33,9 @@ const Home = () => {
                             <p>краткое описание данной программы и ее невероятные полюсы, краткая актуальность и парочка громких слов для мотивации</p>
                             <img src="/premier.svg" alt="" />
                             <div className="open">
-                                <button className='btn-secondary'>записаться на курс</button>
+                                <Link to="/join">
+                                    <button className='btn-secondary'>записаться на курс</button>
+                                </Link>
                             </div>
                         </div>
                         <div className='c'>
@@ -43,7 +45,10 @@ const Home = () => {
                             <p>краткое описание данной программы и ее невероятные полюсы, краткая актуальность и парочка громких слов для мотивации</p>
                             <img src="/photoshop.svg" alt="" />
                             <div className="open">
-                                <button className='btn-secondary'>записаться на курс</button>
+                                <Link to="/join">
+                                    <button className='btn-secondary'>записаться на курс</button>
+                                </Link>
+
                             </div>
 
                         </div>

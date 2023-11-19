@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.card form input {
+.card input {
     background-color: rgba(0, 0, 0, 0.1);
     border: none;
     padding: 1rem;;
@@ -62,3 +62,13 @@
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+#sug {
+    text-align: center;
+    color: #dfdfdf;
+    
+}
+
+#sug a {
+    text-decoration: none;
+    color: #C3006B;
+}
