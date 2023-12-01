@@ -1,1 +1,24 @@
+tr:nth-child(odd) {
+    background-color: rgba(0, 0,0, 0.4);
+}
 
+
+td {
+    padding: 0.5rem;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: separate !important;
+    border-radius: 1rem;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255,255, 0.1);
+}
+
+#you {
+    background-color: #C3006B;
+}

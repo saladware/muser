@@ -26,7 +26,7 @@ const Join = () => {
             lesson: null
         })
         console.log
-        return redirect("/")
+        window.location.pathname = "/welcome"
     }
     
     return (

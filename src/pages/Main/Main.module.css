@@ -1,0 +1,30 @@
+.carded {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(0,0,0,0.2);
+}
+
+#raster {
+    background-color: rgba(255,255,255,0.5);
+}
+
+#mm {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: flex-end;
+}
+
+#mm .mitem {
+    margin: 0.1rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.2);
+}
+
+#mm button {
+    border: none;
+    border-radius: 1rem;
+    color: #dfdfdf;
+    background-color: rgba(0,0,0,0.2);
+}
